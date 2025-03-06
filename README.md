@@ -5,7 +5,7 @@ FlightForesight is an AI-driven system that predicts airline delays with high ac
 1. *Binary Classification*: Predicts whether a flight delay will exceed 100 minutes.
 2. *Multi-Class Classification*: Categorizes flight delays into four severity levels.
 3. *Regression*: Predicts the number of arriving flights at an airport.
-4. 
+
 
 ## Key Features
 
