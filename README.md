@@ -6,6 +6,7 @@ FlightForesight is an AI-driven system that predicts airline delays with high ac
 2. *Multi-Class Classification*: Categorizes flight delays into four severity levels.
 3. *Regression*: Predicts the number of arriving flights at an airport.
 
+---
 
 ## Key Features
 
@@ -47,6 +48,7 @@ FlightForesight is an AI-driven system that predicts airline delays with high ac
 - *Regression Model: Evaluated using **R² Score, MAE, and MSE*.
 - *Training Monitoring*: Visualized accuracy and loss curves.
 
+---
 
 ## Dataset & Preprocessing
 
@@ -60,7 +62,8 @@ FlightForesight is an AI-driven system that predicts airline delays with high ac
     - *Label Encoding* for ordinal categories.
     - *StandardScaler* for numerical features.
     - *Yeo-Johnson Transformation* for skewed features.
-  
+
+---
 
 ## Model Architectures
 
@@ -99,6 +102,7 @@ FlightForesight is an AI-driven system that predicts airline delays with high ac
   - Dropout (0.2)
 - *Output*: 1 neuron (Linear activation)
 
+---
 
 ## Training Details
 
@@ -116,6 +120,7 @@ FlightForesight is an AI-driven system that predicts airline delays with high ac
 - *Metrics*: MSE
 - *Early Stopping*: Based on validation loss
 
+---
 
 ## Technology Stack
 
@@ -125,6 +130,7 @@ FlightForesight is an AI-driven system that predicts airline delays with high ac
 - *Optimization*: AdamW Optimizer, Early Stopping, Dropout Regularization
 - *Visualization*: Matplotlib, Seaborn
 
+---
 
 ## Project Highlights
 
@@ -134,3 +140,5 @@ FlightForesight is an AI-driven system that predicts airline delays with high ac
 - Applied *outlier detection* and *skewness correction* using *PowerTransformer (Yeo-Johnson)*.  
 - Used *advanced feature encoding: **cyclical encoding, one-hot encoding, and label encoding*.  
 - Implemented *regularization strategies* (dropout, early stopping) for better generalization.  
+
+---
