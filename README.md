@@ -52,7 +52,7 @@ FlightForesight is an AI-driven system that predicts airline delays with high ac
 
 ## Dataset & Preprocessing
 
-- *Data Sources*: Flight details, airline information, airport data, and delay causes.
+- *Data Source*: Publicly available flight delay dataset from Kaggle.
 - *Preprocessing Steps*:
   - *Handled missing values* with imputation techniques.
   - *Identified outliers* and *applied transformations*.
